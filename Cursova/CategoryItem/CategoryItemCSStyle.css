@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap'); 
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+  }
+
+header{
+   background: rgb(162,148,249);
+   background: linear-gradient(90deg, rgba(162,148,249,1) 62%, rgba(205,193,255,1) 85%, rgba(229,217,242,1) 93%);
+}
+
+header ul{
+    list-style: none;
+    padding: 20px;
+}
+
+header a{
+    font-size: 20px;
+    color: #F5EFFF;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+header li{
+    position: relative;
+    display: inline;
+    margin-left: 20px;
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+header input{
+    padding-inline-end: 500px;
+    font-size: 20px;
+    border-radius: 40px;
+    border-color: #E5D9F2;
+    background: transparent;
+    border: none;
+    outline: none;
+    border: 2px solid rgb(255, 255, 255, .2);
+    padding-left: 10px;
+    color: #F5EFFF;
+}
+
+header i{
+    position: relative;
+    margin-left: 5px;
+    top:2px;
+}
+
+header ul li ul{
+    position: absolute;
+    left: 0;
+    width: 250px;
+    top: 30px;
+    display: none;
+    border-radius: 40px;
+    backdrop-filter: blur(20px);
+    border: 2px solid rgb(255, 255, 255, .2);
+    z-index: 1;
+    text-align:start;
+}
+
+header ul li ul li{
+    width: 100%;
+}
+
+
+header ul li ul li a{
+    color: #A294F9;
+}
+
+.cardImage img{
+    width: 200px;
+    height: 250px;
+    margin : 10px;
+    border-radius: 40px;
+}
+.cards label{
+    margin: 10px;
+    font-size: large;
+    color : black;
+    margin-left : 25px;
+}
+.cards{
+    display: flex;
+    align-items: stretch;
+    flex-wrap: wrap;
+}
+.card{
+    background-color: #F5EFFF;
+    margin : 10px;
+    border-radius: 10px;
+    border: 2px solid black;
+}
+.bx-cart-download{
+    text-align: center;
+    border-radius: 40px;
+    background:  #CDC1FF;
+    width: 60px;
+    height: 40px;
+    font-size: 40px;
+}
+.bx-cart-download:hover{
+    background: #A294F9;
+}
+
+.icon-as-button {
+    background-color: #d0c7f5;
+    border: none;
+    border-radius: 40px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 150px;
+    margin-right: 30px;
+    margin-bottom: 10px;
+}
+
+.icon-as-button:hover {
+    background-color: #A294F9;
+}
+
+.bx-universal-access{
+    font-size: 30px;
+}

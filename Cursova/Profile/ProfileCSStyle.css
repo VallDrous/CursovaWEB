@@ -1,0 +1,220 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap'); 
+
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+  }
+
+header{
+   background: rgb(162,148,249);
+   background: linear-gradient(90deg, rgba(162,148,249,1) 62%, rgba(205,193,255,1) 85%, rgba(229,217,242,1) 93%);
+}
+
+header ul{
+    list-style: none;
+    padding: 20px;
+}
+
+header a{
+    font-size: 20px;
+    color: #F5EFFF;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+header li{
+    position: relative;
+    display: inline;
+    margin-left: 20px;
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+header input{
+    padding-inline-end: 500px;
+    font-size: 20px;
+    border-radius: 40px;
+    border-color: #E5D9F2;
+    background: transparent;
+    border: none;
+    outline: none;
+    border: 2px solid rgb(255, 255, 255, .2);
+    padding-left: 10px;
+    color: #F5EFFF;
+}
+
+header i{
+    position: relative;
+    margin-left: 5px;
+    top:2px;
+}
+
+header ul li ul{
+    position: absolute;
+    left: 0;
+    width: 250px;
+    top: 30px;
+    display: none;
+    border-radius: 40px;
+    backdrop-filter: blur(20px);
+    border: 2px solid rgb(255, 255, 255, .2);
+    z-index: 1;
+    text-align:start;
+}
+
+header ul li ul li{
+    width: 100%;
+}
+
+
+header ul li ul li a{
+    color: #A294F9;
+}
+
+.bx-universal-access{
+    font-size: 30px;
+}
+
+body .menuInf{
+    display: block;
+    justify-content: center;
+    align-items: center;
+}
+
+.menuInf{
+    width: 420px;
+    background-color: transparent;
+    border: 2px solid rgb(255, 255, 255, .2);
+    backdrop-filter: blur(20px);
+    box-shadow: 0 0 10px rgba(0,0,0, .2);
+    border-radius: 40px;
+    padding: 30px 40px;
+    justify-self: center;
+    margin-top: 40px;
+}
+
+.menuInf .avatar img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+.avatarsCollector img{
+    width: 200px;
+    height: 200px;
+}
+
+.avatarsCollector{
+    display: none;
+    margin-top: 30px;
+    background-color: transparent;
+    border: 2px solid rgb(255, 255, 255, .2);
+    backdrop-filter: blur(20px);
+    box-shadow: 0 0 10px rgba(0,0,0, .2);
+    border-radius: 40px;
+    padding: 30px 40px;
+    justify-self: center;
+}
+
+.avatarsCollector img{
+    border-radius: 50%;
+}
+
+.styleButton button{
+  background: #5E5DF0;
+  border-radius: 999px;
+  box-shadow: #5E5DF0 0 10px 20px -10px;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  font-family: Inter,Helvetica,"Apple Color Emoji","Segoe UI Emoji",NotoColorEmoji,"Noto Color Emoji","Segoe UI Symbol","Android Emoji",EmojiSymbols,-apple-system,system-ui,"Segoe UI",Roboto,"Helvetica Neue","Noto Sans",sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  opacity: 1;
+  outline: 0 solid transparent;
+  padding: 8px 18px;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  width: fit-content;
+  word-break: break-word;
+  border: 0;
+  margin-bottom: 10px;
+}
+
+
+.InputContainer {
+  width: 210px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  justify-self: center;
+  background: linear-gradient(to bottom,rgb(227, 213, 255),rgb(255, 231, 231));
+  border-radius: 30px;
+  overflow: hidden;
+  cursor: pointer;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.075);
+  margin-top: 10px;
+}
+
+
+input{
+  width: 200px;
+  height: 40px;
+  border: none;
+  outline: none;
+  caret-color: rgb(255, 81, 0);
+  background-color: rgb(255, 255, 255);
+  border-radius: 30px;
+  padding-left: 15px;
+  letter-spacing: 0.8px;
+  color: rgb(19, 19, 19);
+  font-size: 13.4px;
+}
+
+body .addItem{
+    margin-top: 10px;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    justify-self: center;
+}
+
+.addItem .addItemButton{
+    margin-top: 10px;
+    display: block;
+    justify-self: center;
+}
+
+body .deleteItem{
+    margin-top: 10px;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    justify-self: center;
+}
+
+.deleteItem .deleteItemButton{
+    margin-top: 10px;
+    display: block;
+    justify-self: center;
+}
+
+body .deleteAccount{
+    margin-top: 10px;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    justify-self: center;
+}
+
+.deleteAccount .deleteAccountButton{
+    margin-top: 10px;
+    display: block;
+    justify-self: center;
+}

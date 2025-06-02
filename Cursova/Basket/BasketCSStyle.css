@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap'); 
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+  }
+
+header{
+   background: rgb(162,148,249);
+   background: linear-gradient(90deg, rgba(162,148,249,1) 62%, rgba(205,193,255,1) 85%, rgba(229,217,242,1) 93%);
+}
+
+header ul{
+    list-style: none;
+    padding: 20px;
+}
+
+header a{
+    font-size: 20px;
+    color: #F5EFFF;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+header li{
+    position: relative;
+    display: inline;
+    margin-left: 20px;
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+header input{
+    padding-inline-end: 500px;
+    font-size: 20px;
+    border-radius: 40px;
+    border-color: #E5D9F2;
+    background: transparent;
+    border: none;
+    outline: none;
+    border: 2px solid rgb(255, 255, 255, .2);
+    padding-left: 10px;
+    color: #F5EFFF;
+}
+
+header i{
+    position: relative;
+    margin-left: 5px;
+    top:2px;
+}
+
+header ul li ul{
+    position: absolute;
+    left: 0;
+    width: 250px;
+    top: 30px;
+    display: none;
+    border-radius: 40px;
+    backdrop-filter: blur(20px);
+    border: 2px solid rgb(255, 255, 255, .2);
+    z-index: 1;
+    text-align:start;
+}
+
+header ul li ul li{
+    width: 100%;
+}
+
+
+header ul li ul li a{
+    color: #A294F9;
+}
+
+.bx-universal-access{
+    font-size: 30px;
+}
+
+
+
+
+
+.bx-minus-circle{
+    font-size: 20px;
+}
+.bx-plus-circle{
+    font-size: 20px;
+}
+
+.card img{
+    width: 200px;
+    height: 250px;
+    margin : 10px;
+    border-radius: 40px;
+}
+
+.base{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.card{
+    background-color: #F5EFFF;
+    margin : 10px;
+    border-radius: 10px;
+    border: 2px solid black;
+    width: 700px;
+    height: 300px;
+}
+.card label{
+    font-size: 20px;
+    align-items: center;
+}
+
+
+/* CSS */
+.purchaseButton {
+  background-color: #c2fbd7;
+  border-radius: 100px;
+  box-shadow: rgba(44, 187, 99, .2) 0 -25px 18px -14px inset,rgba(44, 187, 99, .15) 0 1px 2px,rgba(44, 187, 99, .15) 0 2px 4px,rgba(44, 187, 99, .15) 0 4px 8px,rgba(44, 187, 99, .15) 0 8px 16px,rgba(44, 187, 99, .15) 0 16px 32px;
+  color: green;
+  cursor: pointer;
+  display: inline-block;
+  font-family: CerebriSans-Regular,-apple-system,system-ui,Roboto,sans-serif;
+  padding: 7px 20px;
+  text-align: center;
+  text-decoration: none;
+  transition: all 250ms;
+  border: 0;
+  font-size: 16px;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  width: 500px;
+  height: 55px;
+}
+
+.purchaseButton:hover {
+  box-shadow: rgba(44,187,99,.35) 0 -25px 18px -14px inset,rgba(44,187,99,.25) 0 1px 2px,rgba(44,187,99,.25) 0 2px 4px,rgba(44,187,99,.25) 0 4px 8px,rgba(44,187,99,.25) 0 8px 16px,rgba(44,187,99,.25) 0 16px 32px;
+  transform: scale(1.05) rotate(-1deg);
+}
+
+.purchase{
+    display: block;
+    justify-self: center;
+    justify-content: center;
+    margin-bottom: 30px;
+    margin-top: 10px;
+}
